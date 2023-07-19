@@ -118,6 +118,76 @@ font-size: 15px;
 margin-top: 10px;
 
 }
+/* games name section */
+.games-name-container{
+    border: 1px solid rebeccapurple;
+    min-height: 200px;
+   
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icon-container img{
+    height: 50px;
+    width: 50px;
+}
+.icon-1{
+    display: flex;
+    border-radius: 40px;
+    width: 200px;
+    border: none;
+    background-color: white;
+    
+}
+
+.icon-container p{
+    margin-top: 20px;
+    padding-left: 10px;
+   
+    
+    
+}
+.icon-1:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+    background-color: #FFF;
+}
+.icon-container2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.icon-container2 img{
+    height: 50px;
+    width: 50px;
+}
+.icon-2{
+    display: flex;
+    border-radius: 40px;
+  
+    width: 200px;
+    margin-top: 30px;
+    border: none;
+    background-color: white;
+}
+.icon-container2 p{
+    margin-top: 20px;
+    padding-left: 5px; 
+
+}
+.icon-2:hover{
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+    background-color: #FFF;
+}
+.icon-container2 .music{
+    padding-left: 3px;
+}
+
+
+
 
 
 
