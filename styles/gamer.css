@@ -1,5 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Nav section styles */
+.nav-container {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    background-color: #dda3a3;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    border: 1px solid rebeccapurple;
+}
+
+.logo-container img {
+    width: 100px;
+    margin-right: 20px;
+
+    border: 1px solid tomato;
+}
+
+.text-color {
+    color: #FF42A5;
+}
+
+.nav-items {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 100px;
+    padding: 0 50px;
+}
+
+.nav-items a,
+.nav-button {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+
+    font-weight: 500;
+
+
+
+}
+
+.nav-button {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 200px;
+height: 30px;
+display: flex;
+justify-content: space-around;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-tiktok {
+    color: #59988e;
+
+}
+
+/* nav section ends */
+/* online games section styles */
+.heading{
+    text-align: center;
+}
+.heading p {
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 18px;
+;
+font-weight: 400;
+}
+.card-container{
+    
+   display: flex;
+  gap: 20px;
+    border: 1px solid red;
+   
+    
+    min-height: 400px;
+    
+    
+}
+.card-container img{
+    width: 270px;
+height: 300px;
+
+
+}
+.card-container .image1{
+    margin-left:120px;;
+}
+.card-container p{
+    width: 270px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 15px;
+
+
+margin-top: 10px;
+
+}
+
+
+
+/* footer section styles */
