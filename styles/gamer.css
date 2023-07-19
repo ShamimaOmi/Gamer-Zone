@@ -76,6 +76,73 @@ justify-content: space-around;
 }
 
 /* nav section ends */
+
+/* banner section styles */
+.banner-container{
+    /* border: 1px solid blue; */
+ min-height: 400px;
+    background-color: rgb(247, 243, 238);
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.banner-content{
+    margin-left: 100px;
+    
+}
+.banner-heading1{
+    color: #0B0223;
+
+font-family:  sans-serif;
+font-size: 48px;
+}
+.banner-heading2{
+   
+    
+font-family: Work Sans;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+color: #F948B2;
+
+}
+.fa-play{
+    border: 1px solid #0B0223;
+   
+}
+.sign-in{
+    background-color: #c55297;
+    color: #FFF;
+font-family: Work Sans; 
+font-size: 15px;
+
+
+
+}
+.rogue{
+    background-color: #4EC5F7;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 15px;
+
+
+margin-left: 10px;
+}
+.sign-in , .rogue{
+    padding: 10px 10px;
+    border: #Fff;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+
+/* banner section ends */
 /* online games section styles */
 .heading{
     text-align: center;
@@ -145,6 +212,12 @@ margin-top: 10px;
 .icon-container p{
     margin-top: 20px;
     padding-left: 10px;
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+
    
     
     
@@ -175,6 +248,11 @@ margin-top: 10px;
 .icon-container2 p{
     margin-top: 20px;
     padding-left: 5px; 
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
 
 }
 .icon-2:hover{
@@ -182,9 +260,8 @@ margin-top: 10px;
     border: 1px solid #FF42A5;
     background-color: #FFF;
 }
-.icon-container2 .music{
-    padding-left: 3px;
-}
+
+/* games name section end */
 
 
 
