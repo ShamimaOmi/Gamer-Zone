@@ -122,3 +122,81 @@ margin-top: 10px;
 
 
 /* footer section styles */
+footer{
+    background-color:  #0B0223;
+    min-height: 400px;
+}
+ .footer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    
+   
+}
+.footer-logo img{
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+}
+.gamer{
+    color: #Fff;
+}
+.list-items{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.list-items a{
+    text-decoration: none;
+    color: #FFF;
+
+
+font-size: 12px;
+
+font-weight: 400;
+
+
+}
+.footer-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    
+
+}
+.footer-icon .fa-youtube{
+    color: #FFF;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.terms a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 200;
+
+
+}
+.all-rights{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+margin-top: 20px;
+
+}
+/* footer section ends */
