@@ -1,4 +1,5 @@
 @media screen and (max-width:425px)  {
+    /* navbar section */
     .nav-container, .nav-items{
         width: 100%;
         flex-direction: column;
@@ -8,6 +9,9 @@
     .logo-container , .nav-items{
         margin-left: 0;
     }
+    /* navbar section ends */
+
+    /* banner section */
     .banner-container{
         flex-direction: column;
         
@@ -25,6 +29,9 @@
     margin-top: 20px;
    
 }
+/* banner section ends */
+
+/* online games section  */
 .heading{
     font-size: 12px;
 }
@@ -39,6 +46,9 @@
 .card-container .image1{
     margin-left:0px;
 }
+
+/* online games section ends */
+/* play instantly section */
 .instant-container{
     flex-direction: column;
     text-align: center;
@@ -61,24 +71,64 @@
     width: 200px;
     height: 200px;
 }
+/* play instantly section ends */
+/* games name section  */
 .games-name-container{
     
-   border: 2px solid red;
+  
     margin-top: 200px;
     width: 100%;
 
    
 }
-
-
-/* .icon-container , .icon-container2{
+ .icon-container , .icon-container2{
     display: grid;
-    grid-template-columns: repeat(3 ,100px);
-} */
-/* .first-icon , .second-icon , .third-icon{
-   display: grid;
-   grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
-     */
+.icon-container2{
+    gap: 10px;
 }
+.icon-2{
+    margin-top: 10px;
+}
+/* games name section ends */
+
+
+
 /* footer section */
+footer{
+    margin-top: 20px;
+}
+.list-items  {
+  
+     gap: 10px;
+    margin-top: 20px;
+    margin-left: 40px; 
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    
+}
+.footer-icon{
+    gap: 10px;
+    margin-top: 20px;
+   
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+
+}
+.terms{
+    display: grid;
+   grid-template-columns: 100px 100px;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+
+.all-rights{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+/* footer section ends */
+}
