@@ -103,17 +103,19 @@ border: none;
     color: #0B0223;
 
 font-family:  sans-serif;
-font-size: 48px;
+font-size: 3em;
+
 
 }
-.banner-heading2{
-   
+ .banner-heading2{
     
+   
+   
 font-family: Work Sans;
-font-size: 80px;
-font-style: normal;
+font-size: 6em;
+
 font-weight: 800;
-line-height: normal;
+
 color: #F948B2;
 
 }
@@ -185,7 +187,7 @@ height: 300px;
 
 }
 .card-container .image1{
-    margin-left:120px;;
+    margin-left:120px;
 }
 .card-container p{
     width: 270px;
@@ -448,3 +450,6 @@ margin-top: 20px;
 
 }
 /* footer section ends */
+.hide{
+    display: none;
+}
