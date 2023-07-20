@@ -1,134 +1,226 @@
-@media screen and (max-width:425px)  {
+@media screen and (max-width:425px) {
+
     /* navbar section */
-    .nav-container, .nav-items{
+    .nav-container,
+    .nav-items {
         width: 100%;
         flex-direction: column;
         gap: 10px;
     }
-    
-    .logo-container , .nav-items{
+
+    .logo-container,
+    .nav-items {
         margin-left: 0;
     }
+
     /* navbar section ends */
 
     /* banner section */
-    .banner-container{
+    .banner-container {
         flex-direction: column;
-        
+
     }
-    .banner-content{
+
+    .banner-content {
         margin-left: 30px;
     }
-    .banner-icon , .banner-button{
-      margin-left: 40px;
-      
+
+    .banner-icon,
+    .banner-button {
+        margin-left: 40px;
+
     }
-    
-.banner-picture img{
-    width: 100%;
-    margin-top: 20px;
-   
-}
-/* banner section ends */
 
-/* online games section  */
-.heading{
-    font-size: 12px;
-}
-.heading p{
-    font-size: 10px;
-}
-.card-container{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.card-container .image1{
-    margin-left:0px;
-}
+    .banner-picture img {
+        width: 100%;
+        margin-top: 20px;
 
-/* online games section ends */
-/* play instantly section */
-.instant-container{
-    flex-direction: column;
-    text-align: center;
-    
-}
-.instant-content{
-    margin-left: 0px;
-    margin-top: 20px;
-    
-}
-.instantly-picture{
-    margin-right: 0px;
-    margin-left: 40px;
-    width: 100%;
-}
-.instant-picture2 img{
-    position: relative;
-    bottom: 170px;
-    right: 150px;
-    width: 200px;
-    height: 200px;
-}
-/* play instantly section ends */
-/* games name section  */
-.games-name-container{
-    
-  
-    margin-top: 200px;
-    width: 100%;
+    }
 
-   
-}
- .icon-container , .icon-container2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.icon-container2{
-    gap: 10px;
-}
-.icon-2{
-    margin-top: 10px;
-}
-/* games name section ends */
+    /* banner section ends */
+
+    /* online games section  */
+    .heading {
+        font-size: 12px;
+    }
+
+    .heading p {
+        font-size: 10px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container .image1 {
+        margin-left: 0px;
+    }
+
+    /* online games section ends */
+    /* play instantly section */
+    .instant-container {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .instant-content {
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+
+    .instantly-picture {
+        margin-right: 0px;
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .instant-picture2 img {
+        position: relative;
+        bottom: 170px;
+        right: 150px;
+        width: 200px;
+        height: 200px;
+    }
+
+    /* play instantly section ends */
+    /* games name section  */
+    .games-name-container {
 
 
-
-/* footer section */
-footer{
-    margin-top: 20px;
-}
-.list-items  {
-  
-     gap: 10px;
-    margin-top: 20px;
-    margin-left: 40px; 
-    display: grid;
-    grid-template-columns: repeat(3,100px);
-    
-}
-.footer-icon{
-    gap: 10px;
-    margin-top: 20px;
-   
-    display: grid;
-    grid-template-columns: repeat(3,50px);
-
-}
-.terms{
-    display: grid;
-   grid-template-columns: 100px 100px;
-    gap: 30px;
-    margin-top: 30px;
-    
-}
+        margin-top: 200px;
+        width: 100%;
 
 
-.all-rights{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
+    }
+
+    .icon-container,
+    .icon-container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icon-container2 {
+        gap: 10px;
+    }
+
+    .icon-2 {
+        margin-top: 10px;
+    }
+
+    /* games name section ends */
+
+
+
+    /* footer section */
+    footer {
+        margin-top: 20px;
+    }
+
+    .list-items {
+
+        gap: 10px;
+        margin-top: 20px;
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+
+    }
+
+    .footer-icon {
+        gap: 10px;
+        margin-top: 20px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 50px);
+
+    }
+
+    .terms {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 30px;
+        margin-top: 30px;
+
+    }
+
+
+    .all-rights {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    /* footer section ends */
 }
-/* footer section ends */
+
+/* For tablet */
+@media screen and (min-width:425px) and (max-width:768px) {
+    .logo-container {
+        display: flex;
+
+        width: 100%;
+
+        margin-left: 0px;
+    }
+
+    .nav-items {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+
+
+    }
+
+    .banner-content {
+        margin-left: 0px;
+
+    }
+
+    .banner-picture img {
+        width: 400px;
+        margin-right: 70px;
+    }
+
+    .card-container {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        margin-top: 40px;
+
+
+        min-height: 400px;
+        margin-left: 40px;
+
+
+    }
+
+    .card-container .image1 {
+        margin-left: 0px;
+    }
+
+    .instant-content {
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+
+    .instant-picture1 img {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .instant-picture2 img {
+        position: relative;
+        bottom: 120px;
+        right: 70px;
+        width: 150px;
+        height: 150px;
+    }
+
 }
